@@ -1,0 +1,33 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  background-color: #fff;
+  color: #617DD8;
+}
+
+nav:hover {
+  color: #000;
+}
+
+.btn {
+  background-color: #617DD8;
+  color: #fff;
+  border-radius: 12px;
+  border-color: #617DD8;
+}
+
+.btn:hover {
+  background-color: #aaeeff;
+  border-color: #aaeeff;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.no-line {
+  text-decoration: none;
+}
