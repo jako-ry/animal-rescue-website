@@ -6,11 +6,7 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-h1 {
-  color: #fff;
-}
-
-h2 {
+.white {
   color: #fff;
 }
 
@@ -25,6 +21,10 @@ h2 {
   background-color: #aef;
   border-color: #aef;
   color: rgba(0, 0, 0, .6);
+}
+
+article {
+  background-color: #161c2e;
 }
 
 nav {
