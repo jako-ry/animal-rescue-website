@@ -1,33 +1,53 @@
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-nav {
-  background-color: #fff;
-  color: #617DD8;
+h1 {
+  color: #fff;
 }
 
-nav:hover {
-  color: #000;
+h2 {
+  color: #fff;
 }
 
 .btn {
-  background-color: #617DD8;
+  background-color: #3c5abe;
   color: #fff;
   border-radius: 12px;
-  border-color: #617DD8;
+  border-color: #3c5abe;
 }
 
 .btn:hover {
-  background-color: #aaeeff;
-  border-color: #aaeeff;
-  color: rgba(0, 0, 0, 0.6);
+  background-color: #aef;
+  border-color: #aef;
+  color: rgba(0, 0, 0, .6);
+}
+
+nav {
+  background-color: #161c2e;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #aef;
 }
 
 .no-line {
   text-decoration: none;
+}
+
+.gradient {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+footer {
+  background-color: #161c2e;
+  color: #fff;
 }
