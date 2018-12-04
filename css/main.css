@@ -54,6 +54,10 @@ a:hover {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
+.bg {
+  background-color: #161c2e;
+}
+
 .cards {
   background-color: #161c2e;
   color: #fff;
