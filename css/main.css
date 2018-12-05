@@ -42,6 +42,10 @@ a:hover {
   color: #aef;
 }
 
+ul {
+  list-style: none;
+}
+
 .no-line {
   text-decoration: none;
 }
