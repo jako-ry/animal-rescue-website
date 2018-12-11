@@ -59,23 +59,14 @@
         </ol>
       </div>
     </section>
-    <section class="grid gutter wrapper">
-      <div class="unit gutter pad-t">
+    <section class="gutter wrapper">
+      <div class="gutter pad-t">
         <h2 class="push-1-2">Adoption Application</h2>
-        <form method="POST" action="https://formspree.io/tracy.khuynh@gmail.com">
-          <div class="push-1-4">
-            <label for="name">Full Name</label>
-            <input id="name" name="name" required>
+        <form class="grid" method="POST" action="https://formspree.io/tracy.khuynh@gmail.com">
+          <div class="unit xs-1 gutter">
+            <h3 class="mega push-1-2">About You</h3>
           </div>
-          <div class="push-1-4">
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email" required>
-          </div>
-          <div class="push-1-4">
-            <label for="tel">Phone Number</label>
-            <input id="tel" type="tel" name="tel" required>
-          </div>
-          <div>
+          <div class="unit xs-1 push-1-2 gutter">
             <label for="subject">Dog of Interest</label>
             <select id="subject" name="_subject">
               <option>Ellie</option>
@@ -86,10 +77,98 @@
               <option>Poppy</option>
             </select>
           </div>
+          <div class="unit xs-1 m-3-4 push-1-2 gutter">
+            <label for="name">Full Name</label>
+            <input id="name" placeholder="Full Name" name="name" required>
+          </div>
+          <div class="unit xs-1 m-1-4 push-1-2 gutter">
+            <label for="age">Age</label>
+            <input id="age" placeholder="Age" name="age" required>
+          </div>
+          <div class="unit xs-1 m-3-4 push-1-2 gutter">
+            <label for="address">Address</label>
+            <input id="address" placeholder="Address" name="address" required>
+          </div>
+          <div class="unit xs-1 m-1-4 push-1-2 gutter">
+            <label for="city">City</label>
+            <input id="city" placeholder="City" name="city" required>
+          </div>
+          <div class="unit xs-1 m-3-4 push-1-2 gutter">
+            <label for="subject">Province</label>
+            <select id="subject" name="_subject">
+              <option>Ontario</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland and Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Prince Edward Island</option>
+              <option>Quebec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+          <div class="unit xs-1 m-1-4 push-1-2 gutter">
+            <label for="postal">Postal Code</label>
+            <input id="postal" placeholder="Postal Code" name="postal" required>
+          </div>
+          <div class="unit xs-1 m-1-2 push-1-2 gutter">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Email" name="email" required>
+          </div>
+          <div class="unit xs-1 m-1-2 push-1-2 gutter">
+            <label for="tel">Phone Number</label>
+            <input id="tel" type="tel" placeholder="Phone Number" name="tel" required>
+          </div>
+          <div class="unit xs-1 m-1-2 push-1-2 gutter">
+            <label for="occupation">Occupation</label>
+            <input id="occupation" placeholder="Occupation" name="occupation" required>
+          </div>
+          <div class="unit xs-1 m-1-2 push-1-2 gutter">
+            <label for="tel">Work Number</label>
+            <input id="tel" type="tel" placeholder="Work Number" name="tel" required>
+          </div>
+          <div class="unit xs-1 m-1-2 push-1-2 gutter">
+            <label for="subject">Do you live in a:</label>
+            <select id="subject" name="_subject">
+              <option>House</option>
+              <option>Townhouse</option>
+              <option>Condo</option>
+              <option>Apartment</option>
+              <option>Duplex</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="unit xs-1 m-1-2 push-1-2 gutter">
+            <div class="grid">
+              <div class="unit xs-1">
+                <p class="push-0">Do you:</p>
+              </div>
+              <div class="unit xs-1 m-1-4 push-1-4">
+                <input type="radio" id="own" name="housing">
+                <label for="own">Own</label>
+              </div>
+              <div class="unit xs-1 m-1-4 push-1-4">
+                <input type="radio" id="rent" name="housing">
+                <label for="rent">Rent</label>
+              </div>
+              <div class="unit xs-1 m-1-2 push-1-4">
+                <input type="radio" id="parents" name="housing">
+                <label for="parents">With Parents</label>
+              </div>
+            </div>
+          </div>
+          <div class="unit xs-1 push-1-2 gutter">
+            <label for="renting">If renting (indicate your landlord's contact infomation):</label>
+            <input id="renting" placeholder="Indicate your landlord's contact information" name="renting">
+          </div>
+          <div class="unit xs-1 text-center pad-t gutter">
+            <button class="btn gutter-2 push-2" type="submit">Submit Application</button>
+          </div>
         </form>
-      </div>
-      <div class="unit xs-1 pad-t gutter">
-        <a class="btn gutter-2 push-2" href="#">Submit Application</a>
       </div>
     </section>
   </main>
