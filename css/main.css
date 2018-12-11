@@ -36,6 +36,7 @@ nav {
 a {
   color: #fff;
   transition: all 200ms linear;
+  text-decoration: none;
 }
 
 a:hover {
@@ -44,10 +45,6 @@ a:hover {
 
 ul {
   list-style: none;
-}
-
-.no-line {
-  text-decoration: none;
 }
 
 .gradient {
@@ -59,6 +56,9 @@ ul {
 }
 
 .bg {
+  background-image: url("../images/3-puppies.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
   background-color: #161c2e;
 }
 
