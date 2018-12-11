@@ -20,24 +20,24 @@
   </ul>
 
   <header role="banner" class="grid">
-    <nav role="navigation" class="unit xs-1 s-1" id="nav" tabindex="0">
-      <ul class="list-group-inline text-center pad-t-1-2 push-1-2">
-        <li>
-          <a class="gutter" href="index.html">
+    <nav role="navigation" class="unit xs-1" id="nav" tabindex="0">
+      <ul class="grid list-group-inline text-center pad-t-1-2 push-1-2 wrapper">
+        <li class="unit xs-1 m-1-4 island-1-4">
+          <a href="index.html">
             <i class="icon i-32 push-r-1-4">
               <svg><use xlink:href="images/icons.svg#puppy"></use></svg>
             </i>
             <span class="inline icon-text">Freedom Dog Rescue</span>
           </a>
         </li>
-        <li><a class="gutter" href="rescues.html">Available Rescues</a></li>
-        <li><a class="gutter" href="adopt.html">Adopt a Rescue</a></li>
+        <li class="unit xs-1-2 m-1-2 island-1-4"><a href="rescues.html">Available Rescues</a></li>
+        <li class="unit xs-1-2 m-1-4 island-1-4"><a href="adopt.html">Adopt a Rescue</a></li>
       </ul>
     </nav>
   </header>
 
   <main role="main" id="main" tabindex="0">
-    <section class="grid gutter-2">
+    <section class="grid gutter wrapper">
       <div class="unit gutter pad-t">
         <h1 class="push-1-2">Adoption Process</h1>
         <ol class="gutter-2">
@@ -53,13 +53,13 @@
         <h2 class="push-1-2">Adoption Fee</h2>
         <p class="push-1-2">All our dogs have adoption fees based on their age. These adoption fees help us cover the cost of taking care of other dogs which includes feeding, medicating, and housing them. It's necessary in order for us to continue our rescue work. None of this money goes towards anything besides the dogs.</p>
         <ol class="gutter-2">
-          <li>Under 2 years old: $500</li>
-          <li>2 to 7 years old: $400</li>
-          <li>Over 8 years old: $300</li>
+          <li>Under two years old: $500</li>
+          <li>Two to seven years old: $400</li>
+          <li>Over eight years old: $300</li>
         </ol>
       </div>
     </section>
-    <section class="grid gutter-2">
+    <section class="grid gutter wrapper">
       <div class="unit gutter pad-t">
         <h2 class="push-1-2">Adoption Application</h2>
         <form method="POST" action="https://formspree.io/tracy.khuynh@gmail.com">
@@ -94,11 +94,17 @@
     </section>
   </main>
 
-  <footer role="contentinfo" class="grid gutter-2">
+  <footer role="contentinfo" class="grid gutter">
     <div class="unit xs-1 m-1-2 micro pad-t-1-2">
       <p class="gutter push-1-2">© 2018 Freedom Dog Rescue. All rights reserved.</p>
     </div>
-    <div class="unit xs-1 m-1-2 micro pad-t-1-2 text-right">
+    <div class="unit xs-1 m-0 micro pad-t-1-2 text-center">
+      <ul class="list-group-inline gutter push-1-2">
+        <li><a class="no-line push-1-2 push-r" href="rescues.html">Available Rescues</a></li>
+        <li><a class="no-line push-1-2" href="adopt.html">Adopt a Rescue</a></li>
+      </ul>
+    </div>
+    <div class="unit xs-0 m-1-2 micro pad-t-1-2 text-right">
       <ul class="list-group-inline gutter push-1-2">
         <li><a class="no-line push-1-2 push-r" href="rescues.html">Available Rescues</a></li>
         <li><a class="no-line push-1-2" href="adopt.html">Adopt a Rescue</a></li>
